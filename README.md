@@ -1,3 +1,6 @@
+Claro, aquí está el README actualizado con los detalles de los objetos en los responses y requests:
+
+```markdown
 # 🚀 FastAPI with DynamoDB as Cache
 
 This project demonstrates the integration of **FastAPI** with **DynamoDB** as a caching layer to optimize database queries. The primary database in this example is **SQLite**, but the design is flexible enough to support more robust databases like **PostgreSQL** or **MySQL** in production environments.
@@ -46,9 +49,11 @@ The primary goal of this project is to showcase how DynamoDB can be effectively 
   ```json
   [
     {
-      "id": "UUID",
       "name": "string",
-      "email": "string"
+      "first_last_name": "string",
+      "second_last_name": "string",
+      "email": "user@example.com",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
     }
   ]
   ```
@@ -63,9 +68,11 @@ The primary goal of this project is to showcase how DynamoDB can be effectively 
 - **Response**:
   ```json
   {
-    "id": "UUID",
     "name": "string",
-    "email": "string"
+    "first_last_name": "string",
+    "second_last_name": "string",
+    "email": "user@example.com",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
   }
   ```
 
@@ -78,15 +85,19 @@ The primary goal of this project is to showcase how DynamoDB can be effectively 
   ```json
   {
     "name": "string",
-    "email": "string"
+    "first_last_name": "string",
+    "second_last_name": "string",
+    "email": "user@example.com"
   }
   ```
 - **Response**:
   ```json
   {
-    "id": "UUID",
     "name": "string",
-    "email": "string"
+    "first_last_name": "string",
+    "second_last_name": "string",
+    "email": "user@example.com",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
   }
   ```
 
@@ -101,15 +112,19 @@ The primary goal of this project is to showcase how DynamoDB can be effectively 
   ```json
   {
     "name": "string",
-    "email": "string"
+    "first_last_name": "string",
+    "second_last_name": "string",
+    "email": "user@example.com"
   }
   ```
 - **Response**:
   ```json
   {
-    "id": "UUID",
     "name": "string",
-    "email": "string"
+    "first_last_name": "string",
+    "second_last_name": "string",
+    "email": "user@example.com",
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
   }
   ```
 
@@ -174,3 +189,4 @@ This project is licensed under the MIT License.
 ---
 
 Thank you for exploring **FastAPI with DynamoDB as Cache**! 🎉
+```
