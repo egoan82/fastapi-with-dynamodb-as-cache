@@ -1,6 +1,3 @@
-Claro, aquí está el README actualizado con los detalles de los objetos en los responses y requests:
-
-```markdown
 # 🚀 FastAPI with DynamoDB as Cache
 
 This project demonstrates the integration of **FastAPI** with **DynamoDB** as a caching layer to optimize database queries. The primary database in this example is **SQLite**, but the design is flexible enough to support more robust databases like **PostgreSQL** or **MySQL** in production environments.
@@ -189,4 +186,3 @@ This project is licensed under the MIT License.
 ---
 
 Thank you for exploring **FastAPI with DynamoDB as Cache**! 🎉
-```
