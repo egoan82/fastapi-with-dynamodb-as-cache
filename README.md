@@ -137,8 +137,8 @@ AWS_REGION_NAME="your_region"
 
 1. **Clone the repository.**
    ```sh
-   git clone <REPOSITORY_URL>
-   cd <REPOSITORY_NAME>
+   git clone https://github.com/egoan82/fastapi-with-dynamodb-as-cache.git
+   cd fastapi-with-dynamodb-as-cache
    ```
 
 2. **Install Poetry if you don't have it installed.**
