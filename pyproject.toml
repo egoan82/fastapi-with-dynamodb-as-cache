@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-with-dynamodb-as-cache"
+version = "0.1.0"
+description = ""
+authors = ["Edward Gomez <egoan82@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["standard"], version = "^0.112.1"}
+boto3 = "^1.35.5"
+python-dotenv = "^1.0.1"
+sqlmodel = "^0.0.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
